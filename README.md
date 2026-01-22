@@ -287,6 +287,4 @@ DELETE FROM dbo.dbmail_shim_lock WHERE mailitem_id = <id>;
 *   **Bob Ward (Microsoft)** — public advisory to uninstall CU23/CU1 if you need Database Mail.
 *   **Community incident threads** confirming breakage and rollback outcomes. [\[support.zendesk.com\]](https://support.zendesk.com/hc/en-us/articles/8130298032538-Using-Microsoft-Exchange-Online-with-the-Authenticated-SMTP-Connector), [\[linkedin.com\]](https://www.linkedin.com/pulse/how-set-up-smtp-client-submission-joy-emeto-03nmf)
 
-***
 
-If you want, I can also produce a **CONTRIBUTING.md**, a minimal **diagram (PNG/SVG)**, or a top‑of‑README **badges** block (build, issues, license).
