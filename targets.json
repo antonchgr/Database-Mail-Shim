@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "AG1 Listener",
+    "Type": "Listener",
+    "SqlServer": "<Listener name or ip>",
+    "TcpPort": <port>,
+    "ProfileNames": [],
+    "BatchSize": 150,
+    "Enabled": true
+  },
+  {
+    "Name": "server\\instance",
+    "Type": "Instance",
+    "SqlServer": "server\\instance",
+    "ProfileNames": [],
+    "BatchSize": 120,
+    "Enabled": true
+  }
+  
+]
