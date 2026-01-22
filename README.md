@@ -1,4 +1,4 @@
-# Database Mail Shim (SQL Server → SMTP/O365)
+# Database Mail Shim for SQL Servers impacted from SQL Server 2022 CU23 or SQL Server 2025 CU1
 
 A lightweight, production‑ready workaround that delivers **SQL Server Database Mail** messages through an external SMTP service (e.g., **Office 365 / Exchange Online**) **only** when the built‑in Database Mail host process cannot run due to a **known packaging defect** in specific cumulative updates.
 
