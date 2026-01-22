@@ -17,25 +17,6 @@ Microsoft engineering publicly acknowledged the problem and recommended uninstal
 **Therefore:** use this shim **only** when you **cannot immediately roll back** from the impacted CUs and you must keep email notifications flowing. If Database Mail works normally in your environment, **do not** use this shim—use native `sp_send_dbmail` as usual. [\[learn.microsoft.com\]](https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)
 
 ***
-
-## Table of Contents
-
-1.  \#how-it-works
-2.  \#architecture
-3.  \#sql-requirements
-4.  \#powershell-shim-responsibilities
-5.  \#targets-json
-6.  \#task-scheduler
-7.  \#smtp
-8.  \#security
-9.  \#troubleshooting
-10. \#runbook
-11. \#extensibility
-12. \#summary
-13. \#references
-
-***
-
 ## <a name="how-it-works"></a> How It Works (High‑Level)
 
 1.  SQL Server enqueues Database Mail messages in **`msdb.dbo.sysmail_mailitems`** via `sp_send_dbmail` or your custom code.
