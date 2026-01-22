@@ -285,6 +285,3 @@ DELETE FROM dbo.dbmail_shim_lock WHERE mailitem_id = <id>;
 *   **Microsoft Learn — SQL Server 2022 CU23 (KB5074819)**: temporarily unavailable due to Database Mail issue; explicit warning and error text. [\[learn.microsoft.com\]](https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)
 *   **Microsoft Learn — SQL Server 2025 CU1 (KB5074901)**: temporarily unavailable for the same Database Mail issue.
 *   **Bob Ward (Microsoft)** — public advisory to uninstall CU23/CU1 if you need Database Mail.
-*   **Community incident threads** confirming breakage and rollback outcomes. [\[support.zendesk.com\]](https://support.zendesk.com/hc/en-us/articles/8130298032538-Using-Microsoft-Exchange-Online-with-the-Authenticated-SMTP-Connector), [\[linkedin.com\]](https://www.linkedin.com/pulse/how-set-up-smtp-client-submission-joy-emeto-03nmf)
-
-
